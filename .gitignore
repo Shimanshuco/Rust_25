@@ -1,0 +1,30 @@
+# Ignore all target/ folders recursively
+**/target/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rust build artifacts
+*.rlib
+*.dSYM
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.crate
+
+# Cargo config dirs
+.cargo/
+rustup/
+
+# Node or frontend (if used)
+node_modules/
